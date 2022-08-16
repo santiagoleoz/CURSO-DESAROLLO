@@ -26,7 +26,6 @@ header h1{
 header  nav ul li a {   
     color: azure;
     text-decoration: none;
-    
 }
 header nav{
     text-align: center; 
@@ -336,8 +335,6 @@ footer div p{
     display: flex;
     flex-wrap: wrap;
     justify-content:space-evenly;
-
-
 
 
 }  
