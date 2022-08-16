@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FlyBondi</title>
+  <link rel="stylesheet" href="../estilos.css">
+</head>
+<body>
+  <header>
+    <h1>Flybondi</h1>
+    <nav>
+      <ul>
+        <li>
+          <a href="../index.html">Home</a>
+        </li>
+        <li>
+          <a href="./contacto.html">Contacto</a>
+        </li>
+        <li>
+          <a href="./sedes.html">Sedes</a>
+        </li>
+        <li>
+          <a href="./Reserva.html">Reserva </a>
+        </li>
+        <li>
+          <a href="./nosotros.html">Nosotros</a>
+        </li>
+      </ul> 
+    </nav>
+    <div class="Buscador">
+      <input type="text" placeholder="Buscar..." name="Buscador" id="Buscador">
+    </div>
+  </header>
+  <main>
+    <div class="reserva">
+      <h2>Reserve aqui</h2>
+    </div>
+    <form class="reservabotones"> 
+      <div class="cajasreserva">
+        <label for="NombreApellido">Nombre y Apellido Pasajero/a</label>
+        <input name="NombreApellido" id="NombreApellido" placeholder="Nombre y Apellido">
+      </div>
+      <div class="cajasreserva">
+        <label for="Nacionalidad">Nacionalidad</label>
+        <input name="Nacionalidad" id="Nacionalidad" placeholder="Nacionalidad">
+      </div>
+      <div class="cajasreserva">
+        <label for="Edad">Edad</label>
+        <input name="Edad" id="Edad" placeholder="Edad">
+      </div>
+      <div class="cajasreserva">
+        <label for="Ciudad">Ciudad</label>
+        <input name="Ciudad" id="Ciudad" placeholder="Ciudad">
+      </div>
+      <div>
+        <label>Servicios Extras</label>
+        <input type="checkbox" value="Bus" name="Bus" id="Bus">
+        <label for="Bus">Bus</label>
+
+        <input type="checkbox" value="Hotel" name="Hotel" id="Hotel">
+        <label for="Hotel">Hotel</label>
+      </div>
+      <div>
+        <label>Sexo</label>
+        <input type="radio" name="Sexo" value="Hombre" id="Hombre">
+        <label for="Hombre">Hombre</label>
+        <input type="radio" name="Sexo" value="Mujer"  id="Mujer">
+        <label for="Mujer">Mujer</label>
+      </div>
+      <div class="cajasreserva">
+        <label>Nacionalidad</label>
+        <select name="Nacionalidad" id="Nacionalidad">
+          <option value="Escoger">Escoger</option>
+          <option value="Uruguay">Uruguay</option>
+          <option value="Paraguay">Paraguay</option>
+          <option value="Ecuador">Ecuador</option>
+          <option value="Brasil">Brasil</option>
+        </select>
+      </div>
+      <div class="cajasreserva">
+        <textarea name="Consulta" id="Consulta" placeholder="Consulta" rows="10" cols="40"></textarea>
+      </div>
+      <div class="enviarborrar">
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+      </div>     
+    </form>
+  </main>
+  <footer>
+    <div>
+      <img src="../multimedia/flybondi.png" alt="FlyBOndiLogo">
+    </div>
+    <div>
+      <a href="https://www.instagram.com/flybondioficial/" target="_blank"
+      rel="noopener noreferrer"> instagram</a>
+      <a href="https://www.facebook.com/flybondi"  target="_blank"
+      rel="noopener noreferrer"> facebook</a>
+      <a href="https://flybondi.com/ar" target="_blank"
+      rel="noopener noreferrer"> Pagina Oficial</a>
+      <a href="https://api.whatsapp.com/send?phone=+46704768785&text=Hola,Necesito mas Informacion!!!">Whatsapp</a>
+    </div>
+    <div>
+      <p>Pagina Creada por Santiago Leoz</p>
+    </div>
+  </footer>
+</body>
+</html>
